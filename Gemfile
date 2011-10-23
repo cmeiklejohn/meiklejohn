@@ -5,6 +5,9 @@ gem 'sinatra'
 gem 'rack'
 gem 'rake'
 
+gem 'heroku'
+gem 'kumade'
+
 gem 'thin'
 
 group :test do 
