@@ -1,0 +1,11 @@
+= Meiklejohn, or the code behind meiklejo.hn.
+
+Fork, add, change, whatever!  Send me a pull request and we'll do it live!
+
+== License
+
+Meiklejohn is Copyright © 2011 Christopher Meiklejohn.  It is free software, and may be redistributed under the terms specified in the LICENSE file.
+
+== About
+
+Meiklejohn was written by {Christopher Meiklejohn}[mailto:cmeiklejohn@swipely.com].
