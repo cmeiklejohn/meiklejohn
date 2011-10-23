@@ -6,6 +6,9 @@ require 'sinatra'
 
 module Meiklejohn
   class Application < Sinatra::Base
+    get '/' do 
+      erb :index
+    end
   end
 
   def self.app
