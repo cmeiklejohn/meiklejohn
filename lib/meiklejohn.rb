@@ -9,6 +9,10 @@ module Meiklejohn
     get '/' do 
       erb :index
     end
+
+    get '/:username' do 
+      erb params[:username].to_sym
+    end
   end
 
   def self.app
