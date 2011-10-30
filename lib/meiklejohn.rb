@@ -13,6 +13,10 @@ module Meiklejohn
     get '/:username' do 
       erb params[:username].to_sym
     end
+
+    get '/:username/:page' do 
+      erb "#{params[:username]}/#{params[:page]}".to_sym
+    end
   end
 
   def self.app
