@@ -3,9 +3,12 @@
 require 'rubygems'
 require 'bundler'
 require 'sinatra'
+require 'sinatra/contrib'
 
 module Meiklejohn
   class Application < Sinatra::Base
+    register Sinatra::Contrib
+
     get '/' do 
       erb :index
     end
